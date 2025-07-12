@@ -35,7 +35,7 @@ sidebar_position: 1
 
 它的名称是 `sodium-fabric-0.6.13+mc1.21.5.jar`
 
-由于模组名称没有有一个规范，但一般来说模组名称都会有这些内容，我们继续以这个 Sodium 模组为例，我们来看看它的命名方式：
+由于模组名称没有有一个规范，但一般来说模组名称都会有这些内容，我们继续以这个 **Sodium** 模组为例，我们来看看它的命名方式：
 
 ![about-sodium-mod-name](./assets/about-sodium-mod-name.png)
 
