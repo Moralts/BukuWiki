@@ -33,30 +33,6 @@
 
 2. 下面为你列出了常见的远程联机软件，接下来你需要挑选一个适合自己的软件来帮助自己联机。
 
-   <Tabs>
-     <TabItem value="radmin-lan" label="Radmin LAN" default>
-       **优点**：  简单便捷、适合新手、无需注册  
-       **缺点**：  软件下载速度慢、如果人太多网速会变慢  
-       **网站**：  [Radmin LAN](https://www.radmin-lan.cn/)  
-       **相关教程**：  [三分钟教会你用Radmin LAN联机](https://www.bilibili.com/video/BV1FkskekEtV)
-     </TabItem>
-     <TabItem value="sakura-frp" label="SakuraFrp">
-       **优点**：  速度快、适合更多人一起联机  
-       **缺点**：  需注册和实名认证  
-       **网站**：  [SAKURA FRP](https://www.natfrp.com/)  
-       **相关教程**：  [SakuraFrp 帮助文档](https://doc.natfrp.com/)
-     </TabItem>
-     <TabItem value="essentials" label="Essentials Mod">
-       **优点**：  无需额外软件  
-       **缺点**：  需要正版、服务器位于海外、可能链接速度慢  
-       **网站**：  [Essentials](https://essential.gg/)  
-       **相关教程**：  [Essentials模组如何使用](https://www.bilibili.com/opus/750924420004970518)
-     </TabItem>
-   </Tabs>
-
-   优质教程视频： [一个视频带你了解Minecraft的5种联机方式](https://www.bilibili.com/video/BV14SXnYyEit)
-
-3. 其他玩家在多人游戏界面 → 输入链接 → 点击加入。
 
 ### 常见问题
 

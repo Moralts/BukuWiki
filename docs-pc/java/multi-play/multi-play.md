@@ -5,8 +5,6 @@ sidebar_position: 7
 ---
 
 import DocCardList from '@theme/DocCardList';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 多人游戏
 
