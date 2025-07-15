@@ -43,13 +43,13 @@ sidebar_position: 1
 
 由第三方联机工具或者是内穿工具所搭建好的服务器，用来转发你和你朋友之间的数据，充当 “路由器” ，就像这样：
 
-<img src="./assets/frp-flowchart.svg" alt="frp-flowchart" class="center">
+<img src="./assets/frp-flowchart.svg" alt="frp-flowchart" class="center"></img>
 
 ### 虚拟局域网 （Radmin LAN）
 
 虚拟局域网则是将你和你的朋友拉进一个虚拟出来的路由器，能够像家里的路由器一样互相连接，就像这样：
 
-<img src="./assets/mesh.svg" alt="mesh" class="center">
+<img src="./assets/mesh.svg" alt="mesh" class="center"></img>
 
 这些都是一些常见的联机方式，按理来说也能完全适用在你的情况。
 
