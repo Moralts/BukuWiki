@@ -1,7 +1,7 @@
 ---
 title: 更多玩法
 slug: /more
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # 更多玩法
