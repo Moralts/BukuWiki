@@ -40,3 +40,21 @@ sidebar_position: 1
 ![about-sodium-mod-name](./assets/about-sodium-mod-name.png)
 
 当然，不可能所有的模组都是一个命名方式，但也大差不差，自己分辨一下就好。
+
+## 模组前置
+
+一些模组开发者为了方便自己开发的多个模组调用同一个 API，单独开发了前置模组。在安装模组时，如果该模组有对应的前置模组，是需要一并安装的，否则游戏将无法启动。
+
+下面是一些热门模组和对应的前置模组的举例：
+
+- [匠魂 2](https://www.mcmod.cn/class/329.html) - [地幔 (Mantle)](https://www.mcmod.cn/class/329.html)
+- [无尽贪婪](https://www.mcmod.cn/class/505.html) - [CodeChicken Lib](https://www.mcmod.cn/class/562.html)
+- [YUNG 的矿井优化](https://www.mcmod.cn/class/2788.html) - [YUNG's API](https://www.mcmod.cn/class/3372.html)
+
+## 去哪找模组
+
+可前往 [MC 百科](https://mcmod.cn) 去寻找和下载模组。这里可以称得上是国内最大的 Minecraft 模组下载 / 资料站。收录了几万个模组和各种模组资料、物品等。不仅找模组可以去这里，查模组教程、资料、机制之类的东西都可以去这里。不过这里大多数模组都没有直接的下载链接，而是只给出了 CurseForge / Modrinth 等网站的下载链接。因此建议使用 MC 百科搜索模组，用启动器 (PCL 2、HMCL 等) 下载模组。
+
+国外新兴模组平台 [Modrinth](https://modrinth.com) 目前已经有 5 万多个模组和材质包、光影、数据包等内容。其模组多数是开源的，并且下载、访问速度也比 CurseForge 快很多。
+
+国外的 [CurseForge](https://www.curseforge.com/minecraft) 更是有着十多万个模组、材质包等内容。MC 百科上的绝大部分模组都是从此搬运的。如果你英语好，并且能忍受 CurseForge 缓慢的加载速度，也可以去这个网站查找模组。
