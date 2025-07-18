@@ -19,7 +19,7 @@ sidebar_position: 3
 
 以钠 (Sodium) 为例，点进去后会发现有很多个适用于不同 Minecraft 版本和模组加载器的版本。
 
-[](./assets/install-mod_2.png)
+![](./assets/install-mod_2.png)
 
 可以在版本列表上方的顶栏中选择对应的 Minecraft 版本以快速找到自己所需要安装的版本。选 Fabric、Forge 还是 NeoForge，看你所使用的是什么模组加载器。如果你在刚刚的搜索框下方的下拉框已经选择了 Minecraft 版本，则在这个列表 PCL 2 会直接列出最佳的模组版本，无需自己再一个个寻找。
 
@@ -31,11 +31,11 @@ sidebar_position: 3
 
 以 [MC 百科](https://mcmod.cn) 为例，我们可以直接在首页下方的 “版本检索” - “更多” 中打开 “[模组检索](https://www.mcmod.cn/modlist.html)”，通过上方的几个选项快速找到所需要的模组。也可以直接在右上角的搜索按钮中直接搜索自己想要找的模组。
 
-[](./assets/install-mod_3.png)
+![](./assets/install-mod_3.png)
 
 如图所示，这是机械动力 (Create) 模组。
 
-[](./assets/install-mod_4.png)
+![](./assets/install-mod_4.png)
 
 如果你要找的模组像该模组一样提供了直接就能在 MC 百科下载的选项，则可以在下方找到 “Mod 下载” 去下载该模组。如果没有提供，那就需要自己动手去下载了。下载链接在上方的 “相关链接” 中可以找到，但是链接这么多，哪一个才是下载的呢？很简单，CurseForge 和 Modrinth 通常就是。建议优先去 Modrinth 下载，毕竟访问速度比前者快。其次如果作者提供了蓝奏云 / 百度网盘等网站的下载链接，也可以去这里面下载。但仍然建议优先去那两个模组平台下载，毕竟有些作者上传到网盘的模组版本可能不是最新的。
 
