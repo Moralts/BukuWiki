@@ -31,6 +31,8 @@ BukuWiki 是由一群 Minecraft 的社区爱好者一同维护的开源内容 Wi
 
 <h1 align="center">📖开始阅读</h1>
 
+> **本教程仍然处于初步补充内容阶段，在未完成编辑的文档可能会有缺失内容 / 排版问题 / 内容紊乱等**
+
 我们使用 [Netlify](https://www.netlify.com/) 提供的构建服务，转到 [docs.buku.wiki](https://docs.buku.wiki/)
 
 <a href="https://www.netlify.com">
