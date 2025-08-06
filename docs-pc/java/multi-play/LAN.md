@@ -1,5 +1,5 @@
 ---
-title: 开始联机
+title: 局域网联机
 sidebar_position: 2
 ---
 
