@@ -1,7 +1,7 @@
 ---
 title: 游戏模组
-slug: /mod
-sidebar_position: 5
+slug: /mods
+sidebar_position: 6
 ---
 
 # 游戏模组

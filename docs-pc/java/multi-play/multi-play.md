@@ -1,7 +1,7 @@
 ---
 title: 多人游戏
 slug: /multi-play
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 import DocCardList from '@theme/DocCardList';
