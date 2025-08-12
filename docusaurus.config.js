@@ -62,6 +62,19 @@ const config = {
             showLastUpdateAuthor: true,
             showLastUpdateTime: true,
         }],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'docs-android',
+                path: 'docs-android',
+                routeBasePath: 'Android',
+                editUrl: 'https://github.com/Moralts/BukuWiki/tree/main/',
+                sidebarPath: require.resolve('./sidebars.js'),
+                editCurrentVersion: true,
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
+            },
+        ],
   ],
 
   presets: [
@@ -146,6 +159,13 @@ const config = {
             position: 'left',
             label: 'PC',
             docsPluginId: 'docs-pc'
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Android',
+            docsPluginId: 'docs-android'
           },
           {
             href: 'https://github.com/Moralts/BukuWiki',
