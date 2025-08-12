@@ -17,5 +17,6 @@ sidebar_position: 3
 
 联机工具千千万，按照目前来说，比较适合和你朋友联机的方式有两种：**虚拟局域网** 和 **内网穿透工具**，各有各的好处， 前者**便宜免费的很多，但流畅度得看每个人的网络质量**，而后者**稳定性好，但需要花一点点钱**，看你如何选择。
 
-<DocCardList />
+import DocCardList from '@theme/DocCardList';
 
+<DocCardList />
