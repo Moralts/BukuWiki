@@ -1,3 +1,8 @@
+---
+title: 下载并安装 Radmin LAN
+sidebar_position: 1
+---
+
 # 下载并安装 Radmin LAN
 
 打开 **Radmin LAN 的官网**。 [点我前往](https://www.radmin-lan.cn/)

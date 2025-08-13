@@ -164,7 +164,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Android',
+            label: '安卓',
             docsPluginId: 'docs-android'
           },
           {
