@@ -189,6 +189,10 @@ const config = {
                 to: '/PC/intro',
               },
               {
+                label: '安卓',
+                to: '/android/intro',
+              },
+              {
                 label: '贡献者条约',
                 to: '/contributor-conventions',
               },
@@ -204,6 +208,10 @@ const config = {
               {
                 label: 'QQ Group',
                 href: 'https://qm.qq.com/q/lbNpVgNxza',
+              },
+              {
+                label: '编写条例',
+                to: '/write-specifications'
               },
             ],
           },
