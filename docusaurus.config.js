@@ -230,13 +230,6 @@ const config = {
               `,
               },
               {
-                html: `
-                <a href="https://app.argos-ci.com/moralts/BukuWiki/reference" target="_blank" rel="noreferrer noopener" aria-label="Covered by Argos Visual Testing">
-                  <img src="https://argos-ci.com/badge.svg" alt="Deploys by Netlify"/>
-                </a>           
-              `,
-              },
-              {
                 html: `<a href="https://ipw.cn/ssl/?site=docs.buku.wiki" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s1.svg"></a><a href="https://ipw.cn/ipv6webcheck/?site=docs.buku.wiki" title="本站支持IPv6访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-s1.svg"></a>`,
               },
             ],
