@@ -15,7 +15,15 @@ sidebar_position: 2
 
 :::
 
-## 服务端（房主）
+:::tip
+
+在这篇教程中，点击 “对局域网开放” 的人则作为 “房主” ，这个时候你的朋友则需要加入进来，你的朋友则叫做 “玩家”
+
+房主则需要承担世界运算的工作，你可以选择让你朋友之间设备性能较好的来作为房主
+
+:::
+
+## 房主（服务端）
 
 打开 **Radmin LAN**。 
 
@@ -48,18 +56,49 @@ sidebar_position: 2
 
 :::warning
 
-在启动 Minecraft 游戏之前，你需要注意你和你的朋友是不是**都是**正版账号
-
-如果有一个不是正版，则需要第三方模组来关闭 Mojang 的正版验证，否则无法一起游玩
-
-如果你们玩的是整合包（使用模组加载器）的游戏，你需要下载一个名为 **LAN World Plug-n-Play（更高级联机设置）** 的模组
+房主（服务端）需要下载一个名为 **LAN World Plug-n-Play（更高级联机设置）** 的模组来关闭 Mojang 的 **正版验证**，让你们能够一起游玩
 
 复制 `LAN World Plug-n-Play` 到 PCL2 的模组下载页面，选择你加载器的对应版本即可
 
-![image-20250820191334305](./assets/find-lan-mod.png)
+![find-lan-mod](./assets/find-lan-mod.png)
 
 不会安装模组？不知道自己是什么模组加载器？你可以去看看 [安装模组](/PC/java/mods/install-mod)
 
+接下来的教程将默认你已经安装了 **LAN World Plug-n-Play（更高级联机设置）** 模组
+
 :::
 
-创建完房间之后，打开游戏：
+创建完网络之后，打开游戏
+
+进入你和你朋友要玩的存档
+
+轻点 **Esc** 进入游戏菜单：
+
+![game-esc.png](./assets/game-esc.png)
+
+点击 **对局域网开放**：
+
+![game-find-openlan](./assets/game-find-openlan.png)
+
+进入设置部分：
+
+![game-lan-show](./assets/game-lan-show.png)
+
+图片里面讲述了每个设置的表示的功能，你可以参考一下，当然鼠标放上去也会有提示哦：
+
+![game-lan-tooltip](./assets/game-lan-tooltip.png)
+
+将正版验证设置为禁用，选择下方的创建局域网世界即可：
+
+![game-openlan-steps](./assets/game-openlan-steps.png)
+
+这个时候，聊天框应该会弹出一个关于端口消息，包含了游戏打开在 IP 的哪个端口：
+
+![game-port](./assets/game-port.png)
+
+点击绿色的端口号，复制下来，然后发给你朋友，你的任务就完成啦~
+
+接下来让你朋友加进来吧~
+
+## 玩家（客户端）
+
