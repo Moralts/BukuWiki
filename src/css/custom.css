@@ -8,6 +8,9 @@
   --ifm-color-primary-lighter: #3acaa6;
   --ifm-color-primary-lightest: #4ddac6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-active-color: #28a77f;
+  /* navbar选中项背景色 */
+  --ifm-navbar-active-background-color-light: rgba(40, 167, 127, 0.1);
 }
 
 [data-theme='dark'] {
@@ -19,17 +22,77 @@
   --ifm-color-primary-lighter: #3bead0;
   --ifm-color-primary-lightest: #5cf2db;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-active-color: #1de9b6;
+  /* navbar选中项背景色 */
+  --ifm-navbar-active-background-color-dark: rgba(29, 233, 182, 0.15);
 }
 
 /* 标题栏阴影 */
 .navbar {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
 /* 标题增强 */
 .navbar__brand {
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+/* navbar项目样式优化 */
+.navbar__item {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+  border-radius: 0.5rem;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* navbar选中项背景 */
+.navbar__item.navbar__link--active {
+  background-color: var(--ifm-navbar-active-background-color-light);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link--active {
+  background-color: var(--ifm-navbar-active-background-color-dark);
+  color: var(--ifm-color-primary);
+}
+
+/* navbar项目悬停效果 */
+.navbar__item:hover {
+  transform: translateY(-2px);
+  background-color: var(--ifm-navbar-active-background-color-light);
+}
+
+[data-theme='dark'] .navbar__item:hover {
+  background-color: var(--ifm-navbar-active-background-color-dark);
+}
+
+/* navbar项目点击效果 */
+.navbar__item:active,
+.navbar__item.navbar__item--pressed {
+  transform: scale(0.98);
+}
+
+/* navbar项目激活动画 */
+.navbar__item.navbar__item--activated {
+  animation: navbarItemActivation 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+@keyframes navbarItemActivation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* 二级标题下划线 */
@@ -221,4 +284,29 @@
 .navbar__item:hover:after {
   width: 100%;
   background-color: var(--ifm-color-primary); /* 保持颜色一致性 */
+}
+
+/* 为选中项添加永久下划线 */
+.navbar__item.navbar__link--active:after {
+  width: 100%;
+  background-color: var(--ifm-color-primary);
+}
+
+/* 为导航项添加过渡动画 */
+.navbar__link {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 0 0.25rem;
+  display: inline-block;
+  will-change: transform;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px) translateZ(0);
+}
+
+.navbar__link:active {
+  transform: scale(0.96) translateZ(0);
+  transition: all 0.1s ease;
 }
