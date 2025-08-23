@@ -103,14 +103,7 @@ const config = {
       attributes: {
         src: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/pace.min.js',
       },
-    },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/themes/green/pace-theme-minimal.min.css',
-      },
-    },
+    }
   ],
 
   themeConfig:
