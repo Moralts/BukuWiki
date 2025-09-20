@@ -93,14 +93,7 @@ const config = {
     ],
   ],
 
-  headTags: [
-    {
-      tagName: 'script',
-      attributes: {
-        src: 'https://cdn.jsdmirror.cn/npm/pace-js@latest/pace.min.js',
-      },
-    }
-  ],
+  headTags: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
