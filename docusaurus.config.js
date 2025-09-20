@@ -39,13 +39,9 @@ const config = {
 
   scripts: [
     {
-      src: 'https://cdn.jsdmirror.cn/npm/pangu@4.0.7/dist/browser/pangu.min.js',
-      async: false,
-    },
-    {
       src: 'https://docs.buku.wiki/js/script.js',
       async: true,
-    },
+    }
   ],
 
   plugins: [

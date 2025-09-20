@@ -1,9 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // pangu 加载
-    if (typeof pangu !== 'undefined' && typeof pangu.autoSpacingPage === 'function') {
-      pangu.spacingElementByClassName('theme-doc-markdown markdown');
-    };
-  // 为所有内容块添加滚动动画
+    // 为所有内容块添加滚动动画
   const animateOnScroll = () => {
     const elements = document.querySelectorAll('.markdown h2, .markdown h3, .markdown p, .markdown img');
     
